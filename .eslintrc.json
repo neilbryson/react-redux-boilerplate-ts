@@ -8,5 +8,11 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"]
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "indent": "off",
+    "semi": "off",
+    "@typescript-eslint/indent": ["warn", 2],
+    "@typescript-eslint/semi": ["warn"]
+  }
 }
